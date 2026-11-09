@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahashon Mbuthia | ICT Technician</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-radius: 12px;
+            overflow: hidden;
+            border-top: 8px solid #1a4d2e;
+        }
+        header {
+            background: linear-gradient(135deg, #1a4d2e, #2e6b45);
+            color: white;
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.3rem;
+            margin-top: 8px;
+            opacity: 0.95;
+        }
+        .profile-photo {
+            text-align: center;
+            margin-top: -80px;
+            position: relative;
+        }
+        .profile-photo img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 6px solid #fff;
+            border-radius: 50%;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+        }
+        .content {
+            padding: 40px 40px 30px;
+        }
+        h2 {
+            color: #1a4d2e;
+            border-bottom: 3px solid #2e6b45;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: flex-start;
+        }
+        ul li:before {
+            content: "⚡";
+            margin-right: 12px;
+            color: #2e6b45;
+            font-size: 1.3rem;
+        }
+        .contact {
+            background: #e8f0e8;
+            padding: 35px 30px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+        .contact a {
+            color: #1a4d2e;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1a4d2e;
+            color: white;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2.2rem; }
+            .content { padding: 30px 20px; }
+            .profile-photo img { width: 150px; height: 150px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero Header -->
+    <header>
+        <h1>Nahashon Mbuthia</h1>
+        <p class="subtitle">ICT Technician | TVET CDACC Level 6 (JCT / ICT Technician)</p>
+        <p style="margin-top: 10px; font-size: 1.1rem;">NYS Engineering Institute</p>
+    </header>
+
+    <!-- Profile Photo -->
+    <div class="profile-photo">
+        <img src="1000046582.jpg" alt="Nahashon Mbuthia">
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+
+        <h2>About Me</h2>
+        <p>Tech-savvy TVET CDACC Level 6 student pursuing the JCT (ICT) course at NYS Engineering Institute. Passionate about information and communication technology, with strong hands-on skills in computer hardware & software maintenance, network troubleshooting, Android application development, and web design.</p>
+
+        <h2>Key Competencies</h2>
+        <ul>
+            <li>Computer repair, maintenance, and software installation</li>
+            <li>Android app development using Kotlin and Jetpack Compose (e.g., functional calculator and productivity apps)</li>
+            <li>Responsive web design and development with HTML, CSS, and JavaScript</li>
+            <li>Basic networking, system configuration, and technical support</li>
+            <li>Problem-solving and troubleshooting real-world ICT challenges</li>
+        </ul>
+
+        <h2>Professional Focus</h2>
+        <p>Committed to delivering efficient digital solutions and contributing to Kenya’s digital transformation through practical ICT skills and continuous learning.</p>
+
+        <h2>Open To Opportunities</h2>
+        <p>Open to entry-level ICT roles, freelance projects, or collaborations in software development, technical support, and systems maintenance.</p>
+
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+        <h2 style="margin-top: 0; color: #1a4d2e;">Let's Connect</h2>
+        <p><strong>Phone:</strong> <a href="tel:0745280134">0745 280 134</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/254743823041">0743 823 041</a></p>
+        <p><strong>Email:</strong> <a href="mailto:nahashonmbuthia6@gmail.com">nahashonmbuthia6@gmail.com</a></p>
+        <p style="margin-top: 25px; font-size: 1.1rem;">Ready to build reliable tech solutions together! 💻📱</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 Nahashon Mbuthia • NYS Engineering Institute • TVET CDACC Level 6
+    </footer>
+
+</div>
+
+</body>
+</html>
